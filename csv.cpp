@@ -46,7 +46,6 @@ csv::writeCsv::writeCsv(std::string file_name) {
 	write.open(file_name);
 	
 	if (!write.is_open()) {
-		std::cout << ("file not opened: does it exist? \n");
 		throw std::runtime_error("file not opened");
 	}
 }
