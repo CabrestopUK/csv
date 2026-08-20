@@ -62,7 +62,6 @@ void csv::writeCsv::writeLine(std::vector<std::string> line) {
 //	
 // main()
 //
-#define TEST
 #ifdef TEST
 int main() {
 	csv::writeCsv test_write("foo.csv");
